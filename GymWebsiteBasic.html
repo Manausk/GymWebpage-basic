@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MK Fitness</title>
+    <link rel="stylesheet" href="CSS/style1.css" />
+    <style>
+      body {
+        color: #fff;
+        margin: 0px;
+        padding: 0px;
+        background: url("groundback1.jpg");
+        height: 4399px;
+        font-weight: bold;
+      }
+      .left {
+        position: absolute;
+        top: 20px;
+        left: 50px;
+        display: inline-block;
+      }
+      .left img {
+        width: 80px;
+        height: 56px;
+      }
+      .left div {
+        text-align: center;
+        line-height: 20px;
+        font-size: 24px;
+      }
+      .mid {
+        display: block;
+        width: 40%;
+        margin: 42px auto;
+      }
+      .right {
+        display: inline-block;
+        position: absolute;
+        right: 50px;
+        top: 52px;
+      }
+      .navbar {
+        display: inline-block;
+      }
+      .navbar li {
+        display: inline-block;
+        color: white;
+        font-size: 15px;
+      }
+      .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 13px;
+      }
+      .navbar li a:hover,
+      .navbar li a.active {
+        color: gray;
+        text-decoration: underline;
+      }
+      .btn {
+        color: white;
+        background-color: black;
+        margin: 0px 7px;
+        padding: 3px 4px;
+        border: 2px solid rgb(176, 171, 171);
+        border-radius: 10px;
+        font-size: 12px;
+        cursor: pointer;
+      }
+      .btn:hover {
+        background-color: rgb(79, 78, 78);
+      }
+      .container {
+        border: 2px solid rgb(255, 255, 255);
+        margin: 150px 85px;
+        padding: 5px 54px;
+        width: 33%;
+        border-radius: 22px;
+        font-weight: bold;
+      }
+      .container h4 {
+        font-size: 25px;
+        text-align: center;
+      }
+      .formgroup input {
+        text-align: center;
+        display: block;
+        width: 304px;
+        padding: 6px;
+        border: 2px solid rgb(0, 0, 0);
+        margin: 6px auto;
+        font-size: 14px;
+        border-radius: 8px;
+        font-weight: bold;
+      }
+      .container button {
+        display: block;
+        width: 76.5%;
+        margin: 20px auto;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <div class="left">
+        <img src="/lotus3.png" alt="" />
+        <div>Manash Fitness</div>
+      </div>
+      <div class="mid">
+        <div class="navbar">
+          <ul>
+            <li><a href="http:#">Home</a></li>
+            <li><a href="http:#">About Us</a></li>
+            <li><a href="http:#">Fitness Calculator</a></li>
+            <li><a href="http:#">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="right">
+        <button class="btn">Call Us Now</button>
+        <button class="btn">Email Us</button>
+      </div>
+      <div class="container">
+        <h4>Join the best GYM of Assam now</h4>
+        <form action="noaction.php">
+          <div class="formgroup">
+            <input type="text" placeholder="Enter your Name" />
+          </div>
+          <div class="formgroup">
+            <input type="text" placeholder="Enter your Age" />
+          </div>
+          <div class="formgroup">
+            <input type="text" placeholder="Enter your Gender" />
+          </div>
+          <div class="formgroup">
+            <input type="text" placeholder="Enter your Locality" />
+          </div>
+          <button class="btn">Submit</button>
+        </form>
+      </div>
+    </header>
+  </body>
+</html>
